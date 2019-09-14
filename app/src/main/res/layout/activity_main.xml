@@ -10,9 +10,20 @@
         android:id="@+id/value"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="45.00"
+        android:text="@string/calibrating"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         android:textSize="23sp"
         android:layout_centerInParent="true"/>
+    <Button
+        android:id="@+id/scanButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/scan_qr_code"
+        android:background="#00c853"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        />
+
 </RelativeLayout>
